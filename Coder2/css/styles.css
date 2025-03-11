@@ -1,0 +1,51 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo de las páginas */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #e9dbc1;
+}
+
+header {
+    display: flex; /* Utilizamos Flexbox para distribuir los elementos */
+    justify-content: flex-start; /* El logo se queda a la izquierda */
+    align-items: center; /* Alineación vertical del contenido */
+    padding: 20px;
+    background-color: rgb(232, 88, 88);
+    height: 100px; /* Altura del header */
+    width: 100%; /* Hace que el header ocupe todo el ancho */
+}
+
+
+.logo {
+    width: 80px; /* Ancho del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 80px; /* Limita la altura máxima para que el logo no crezca más que el header */
+}
+
+header h1 {
+    flex-grow: 1; /* Hace que el h1 ocupe el espacio restante */
+    text-align: center; /* Centra el texto dentro del h1 */
+    background-color: rgb(73, 164, 196);
+    padding: 10px;
+    border: 2px solid #fff; /* Borde blanco, puedes cambiar el color y grosor */
+    
+    /* Bordes redondeados */
+    border-radius: 15px; /* Redondea las esquinas del h1 */
+}
+.navprincipal nav a {
+    display: inline;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(169, 125, 68);
+}
+.container {
+    display: flex;
+}
+/* Estilos del logo */
+
