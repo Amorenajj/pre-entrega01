@@ -1,0 +1,113 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo de las paginas */
+body{
+    background: #e9dbc1;
+}
+
+/* Estilo general del header */
+
+.fondo-header {
+    display: flex;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.titulo-principal {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+    
+}
+/* Estilo del logo */
+/* .logo-titulo {
+
+    margin: 30px;
+} */
+
+
+/* Estilo del h1 */
+/* .titulo-principal {
+    display: flex;
+    margin: 30px; /* Espacio entre el h1 y el nav */
+    /* font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px black solid;
+    color: black;
+    /* background-color: #E5D0AC; */ 
+/* .nav-principal{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    /* flex-flow: row wrap; */
+
+.texto-principal{
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+main h2{
+    display: inline;
+    background-color: black;
+    color: orange;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iframe {
+        display: block;  /* Evita espacios adicionales alrededor del iframe */
+        margin: 0 auto;  /* Centra horizontalmente */
+        width: 80%;  /* Ajusta el ancho del mapa */
+        max-width: 600px;  /* Limita el ancho máximo */
+        height: 400px;  /* Ajusta la altura */
+        border: 0;  /* Elimina el borde */
+    }
+.video-principal{
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    width: 750px; 
+    height: 500px;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+.img-servicio{
+    display: block;
+    margin: auto;
+    width: 400px; 
+    height: 400px;
+}
+.ul-principal{
+    margin: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    color:orange
+}
+.video-obras{
+    display: block;
+    margin: auto;
+    width: 750px; 
+    height: 500px;
+}
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+}
